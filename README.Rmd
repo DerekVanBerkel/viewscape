@@ -32,7 +32,7 @@ The goal of viewscape package is to provide an accessible method of carrying out
 library(devtools)
 
 install_github("land-info-lab/viewscape")
-
+library(viewscape)
 ```
 
 The basic viewshed analysis can be accessed through calling the `calculate_viewshed`. The two needed objects to calculate the viewshed are a digital surface model (DSM) and a viewpoint.
